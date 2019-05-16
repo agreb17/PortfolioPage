@@ -1,33 +1,124 @@
-.App {
-  text-align: center;
+:root {
+  --off-white: #fafafa;
 }
-
-.App-logo {
-  animation: App-logo-spin infinite 20s linear;
-  height: 40vmin;
-  pointer-events: none;
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
+.nav {
+  background-color: var(--off-white);
+  position: fixed;
+  top: 0px;
+  right: 0px;
+  width: 20rem;
+  height: 100vh;
+  z-index: 1000;
+  box-shadow: 0 4px 14px 0 rgba(0, 0, 0, 0.15);
+  background-color: #4dd0e1;
   color: white;
 }
 
-.App-link {
-  color: #61dafb;
+.nav-logo {
+  height: 60px;
+  width: 60px;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.nav-logo:hover {
+  cursor: pointer;
+}
+
+.nav .nav-content {
+  max-width: 900px; 
+  margin: 0 auto;
+  display: flex;
+  -webkit-justify-content: space-between;
+  justify-content: flex-start; 
+  height: 100%;
+  flex-direction: column;
+  width: 100%;
+}
+
+.nav-content {
+  margin-top: 25px;
+}
+.nav-item { 
+  color: #333333;
+  width: 100%;
+  border: 1px solid red;
+  padding: 0;
+  list-style-type: none;
+}
+
+.nav-item:hover {
+  color: black;
+  cursor: pointer;
+}
+
+ 
+
+.section-dark {
+  background: #333;
+  color: white;
+}
+
+.section-content {
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 40px;
+}
+
+a{
+  cursor: pointer;
+  min-height: 50px;
+  vertical-align: center;
+  border-bottom: 1px solid white;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.first{ 
+  border-top:1px solid white;
+}
+
+ .active { 
+  background-color: white;
+  color: #4dd0e1;
+  width: 100%; 
+}
+
+.centerLinks{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+ 
+
+.content {
+  padding-right: 20rem; 
+}
+
+.nav-items {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  padding: 0;
+
+}
+
+.personalMenuInfo {
+  width: 80%;
+  margin: 0 auto;
+}
+
+.personalMenuInfo h2 {
+  text-align:center;
+}
+
+.face {
+  background: url("./assets/tomsbighead2.jpeg");
+  width: 7rem;
+  height: 7rem;
+  border-radius: 50%;
+  border: 2px solid white;
+  margin: 0 auto;
+  margin-top: 25px;
 }
