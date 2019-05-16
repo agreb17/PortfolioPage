@@ -5,7 +5,7 @@ const movebytesInner = `innerTile movebytes`;
 const portfolioInner = `innerTile portfolio`
 const classes = `section-content projects`;
 
-export default function ProjectSection({ title, subtitle, dark, id }) {
+export default function ProjectSection({ dark, id }) {
   return (
     <div className={"section" + (dark ? " section-dark" : "")}>
       <div className={classes} id={id}>
@@ -34,7 +34,7 @@ export default function ProjectSection({ title, subtitle, dark, id }) {
                             target="_blank"><FaGithub 
                             className="fa"/>
                             </a> 
-                            <a href="http://www.anthonygreb.netlify.com" 
+                            <a href="http://anthonygreb.netlify.com" 
                             target="_blank"><FaGlobeAmericas 
                             className="fa"/>
                             </a>

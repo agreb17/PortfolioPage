@@ -1,10 +1,7 @@
 import React from "react";
 import {FaGithub, FaLinkedin, FaEnvelope} from "react-icons/fa";
 
-export default function ContactSection({ title, subtitle, dark, id }) {
-  const formSubmit = (e)=> {
-    console.log('hi')
-  }
+export default function ContactSection({ dark, id }) {
   
   return (
     <div className={"section" + (dark ? " section-dark" : "")}>
