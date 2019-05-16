@@ -12,7 +12,7 @@ export default function ContactSection({ title, subtitle, dark, id }) {
         <div className="contact">
          <h1>Contact Me</h1>
          <h3>If you would like to send me an email please use the form below. </h3>
-         <form action="https://formspree.io/TJKISNER@gmail.com" method="POST" >
+         <form action="https://formspree.io/agreb255@gmail.com" method="POST" >
          <div className="nameEmail">
          <input type="text" name="name" placeholder="Name"></input>
          <input type="text" name="email" placeholder="Email"></input>
