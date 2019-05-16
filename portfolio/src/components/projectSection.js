@@ -29,7 +29,16 @@ export default function ProjectSection({ title, subtitle, dark, id }) {
             <div className="projectTile">
                 <div className={portfolioInner} />
                     <div className="projectText">
-                        <h2>AnthonyGreb.com <a href="https://github.com/agreb17/PortfolioSite" target="_blank"><FaGithub className="fa"/></a> <a href="http://www.anthonygreb.com" target="_blank"><FaGlobeAmericas className="fa"/></a></h2>
+                        <h2>AnthonyGreb.netlify.com 
+                            <a href="https://github.com/agreb17/PortfolioPage" 
+                            target="_blank"><FaGithub 
+                            className="fa"/>
+                            </a> 
+                            <a href="http://www.anthonygreb.netlify.com" 
+                            target="_blank"><FaGlobeAmericas 
+                            className="fa"/>
+                            </a>
+                        </h2>
                         <p>Tech Stack: React.js, React-Scroll, LESS</p>
                         <p>
                             Single page portfolio site displaying information about
