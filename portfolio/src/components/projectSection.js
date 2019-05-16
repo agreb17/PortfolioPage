@@ -29,7 +29,7 @@ export default function ProjectSection({ dark, id }) {
             <div className="projectTile">
                 <div className={portfolioInner} />
                     <div className="projectText">
-                        <h2>AnthonyGreb.netlify.com 
+                        <h2>anthonygreb.netlify.com 
                             <a href="https://github.com/agreb17/PortfolioPage" 
                             target="_blank"><FaGithub 
                             className="fa"/>
