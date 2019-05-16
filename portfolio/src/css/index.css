@@ -383,14 +383,11 @@
     transform: scale(1.05);
   }
   .projectTilesContainer .projectTileAndText .portfolio {
-    background-position: left;
-    background-image: url("../assets/movebytesIMG.PNG");
+    background-position: right;
+    background-image: url("../assets/PortfolioPage.PNG");
   }
   .projectTilesContainer .projectTileAndText .movebytes {
     background-image: url("../assets/movebytes.png");
-  }
-  .projectTilesContainer .projectTileAndText .backend {
-    /* background-image: url("../assets/notesCode.png"); */
   }
   .App {
     line-height: 1.3;
