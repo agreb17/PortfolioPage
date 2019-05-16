@@ -34,7 +34,7 @@ export default function ProjectSection({ dark, id }) {
                             target="_blank"><FaGithub 
                             className="fa"/>
                             </a> 
-                            <a href="http://anthonygreb.netlify.com" 
+                            <a href="https://anthonygreb.netlify.com" 
                             target="_blank"><FaGlobeAmericas 
                             className="fa"/>
                             </a>

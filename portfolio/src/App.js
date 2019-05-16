@@ -2,8 +2,6 @@ import React, { Component } from "react";
 import "./css/index.css";
 // import Section from "./components/section";
 import Navbar from "./components/navbar";
-import { Route } from "react-router-dom";
-import { Link, animateScroll as scroll } from "react-scroll";
 import AboutSection from "./components/aboutSection";
 import ProjectSection from "./components/projectSection";
 import SkillsSection from "./components/skillsSection";
